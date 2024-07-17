@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0b80b0-8fad-4524-bf47-637a4b2d188b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Page/Controller/auth_vista.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/Controller/vista.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/Templates/auth_template/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/Templates/auth_template/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/Templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Proyect-Flask-Login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Proyect-Flask-Login.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/Controller/Controller_Api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Controller/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/Templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Templates/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,8 @@
     "Python.__init__.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "V1.0.0"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "V1.0.1"
   }
 }]]></component>
   <component name="RecentsManager">
