@@ -22,15 +22,16 @@ class Tareas(db.Model):
     title = db.Column(db.String(100), nullable=False)
     desc = db.Column(db.Text)
     state = db.Column(db.Boolean, default=False)
+    created_by = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)  #  'Integer' y 'ForeignKey'
     is_active = db.Column(db.Integer, nullable=False, default=1)
     created_on = db.Column(db.DateTime, default=datetime.now)  # 'DateTime'
-    created_by = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)  #  'Integer' y 'ForeignKey'
 
-    def __init__(self, created_by, title, desc, state=False):
-        self.created_by = created_by
+    def __init__(self, title, desc, state,created_by):
         self.title = title
         self.desc = desc
         self.state = state
+        self.created_by = created_by
+
 
     def __repr__(self):
         return f'<tarea:{self.title}>'

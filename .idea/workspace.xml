@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b0b80b0-8fad-4524-bf47-637a4b2d188b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page/Templates/tareas/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page/Templates/tareas/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Controller/Controller_Api.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Controller/auth_vista.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Controller/auth_vista.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Controller/vista.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Controller/vista.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Models/Models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Models/modelo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Models/modelo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -95,5 +104,16 @@
       <updated>1721005761587</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
