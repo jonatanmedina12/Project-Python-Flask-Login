@@ -1,2 +1,6 @@
 Flask~=3.0.3
 Flask-SQLAlchemy
+<<<<<<< Updated upstream
+=======
+Werkzeug~=3.0.3
+>>>>>>> Stashed changes
