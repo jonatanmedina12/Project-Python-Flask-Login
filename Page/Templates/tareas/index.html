@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tareas{% endblock %}
+
+{% block content %}
+<section class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+        <h1>Lista de Tareas</h1>
+
+        <a href="{{ url_for('tareas_vista.create_tarea') }}" class="btn btn-success">Nuevo</a>
+
+    </nav>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="col">Tarea</th>
+                <th class="col">Estado</th>
+                <th class="col" colspan="2">Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tarea in tareas | reverse %}
+
+                {% if g.user.id == tarea.created_by %}
+                    <tr>
+                        <td>
+                            <h5>{{tarea.title}}</h5>
+                            <p>{{tarea.desc}}</p>
+                        </td>
+                        <td>
+                            Incompleto
+                        </td>
+                        <td>
+                            <a href="" class="btn btn-info btn-sm">Editar</a>
+                        </td>
+                        <td>
+                            <a href="" class="btn btn-danger btn-sm">Eliminar</a>
+                        </td>
+                    </tr>
+
+                {% endif %}
+
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+{% endblock %}
