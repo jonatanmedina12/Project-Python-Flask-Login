@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Eliminar tarea{% endblock %}
+
+{% block content %}
+<section class="container-sm">
+    <h3 class="text-center mt-3 mb-3">Eliminar tarea</h3>
+    <p>¿Estás seguro de que deseas eliminar esta tarea?</p>
+    <form action="" method="POST">
+        <div class="form-group">
+            <label for="title">Titulo</label>
+            <input type="text" class="form-control" id="title" name="title" value="{{ tarea.title }}" readonly>
+        </div>
+        <div class="form-group">
+            <label for="desc">Descripción</label>
+            <textarea class="form-control" id="desc" name="desc" rows="3" readonly>{{ tarea.desc }}</textarea>
+        </div>
+        <br>
+        <div class="text-center">
+            <input type="submit" class="btn btn-danger" value="Eliminar">
+            <a href="{{ url_for('tareas_vista.index') }}" class="btn btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</section>
+{% endblock %}
